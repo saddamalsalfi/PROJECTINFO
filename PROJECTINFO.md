@@ -84,54 +84,84 @@ metrics:
 
 # 📝 Project Information (`PROJECTINFO.md`)
 
-> This file provides a **comprehensive identity card** for the project.  
-> It includes metadata, maintainers, runtime requirements, deployment info, and compliance details.
+> 📖 This file acts as a **comprehensive identity card** for the project.  
+> It blends **machine-readable YAML metadata** (above) with **human-friendly documentation** (below).
+
+---
 
 ## 📌 Basic Metadata
-See YAML Front-Matter above for machine-readable data.  
+| Field | Value |
+|-------|-------|
+| **Project Title** | My Sample Project |
+| **System Slug** | `my-sample-project` |
+| **Project ID** | myproject-2025 |
+| **Version** | v1.2.0 |
+| **First Release** | 2023-09-10 |
+| **Last Updated** | 2025-09-15 |
+| **Status** | 🟢 Active |
+| **Languages (UI)** | en, ar |
+| **Tech Stack** | Python · JavaScript |
+| **Database** | PostgreSQL |
+| **Frameworks** | Django · React |
+| **Architecture** | Client-Server (REST + WebSockets) |
+| **License** | MIT |
+| **Docs** | [Documentation](https://example.com/docs) |
+| **Demo** | [Homepage/Demo](https://example.com/demo) |
+| **Keywords** | AI · Machine Learning · NLP |
 
 ---
 
 ## 👨‍💻 Maintainers / Developers
-- John Doe – Lead Developer @ Open Source Lab, [GitHub](https://github.com/johndoe)  
-- Jane Smith – Backend Engineer @ TechCorp, [GitHub](https://github.com/janesmith), [LinkedIn](https://linkedin.com/in/janesmith)  
+- **John Doe** – Lead Developer @ Open Source Lab  
+  📧 john@example.com · [GitHub](https://github.com/johndoe) · ORCID: 0000-0001-2345-6789 · 🕒 UTC+2  
+
+- **Jane Smith** – Backend Engineer @ TechCorp  
+  📧 jane@techcorp.com · [GitHub](https://github.com/janesmith) · [LinkedIn](https://linkedin.com/in/janesmith) · 🕒 UTC+0  
 
 ---
 
 ## 🏢 Organization
-- Responsible Entity: Open Source Lab, XYZ University  
-- Support Contact: support@example.com  
-- Channels: Discussions · Slack · Mailing List  
+- **Entity:** Open Source Lab, XYZ University  
+- **Support:** support@example.com  
+- **Issue Tracker:** GitHub Issues  
+- **Channels:** [Discussions](https://github.com/org/repo/discussions) · [Slack](https://workspace.slack.com/project) · Mailing List  
 
 ---
 
 ## ⚙️ Runtime Requirements
-- Environments: Linux, Windows 11, macOS Ventura  
-- Dependencies: Python, Node.js, PostgreSQL  
-- Optional Libraries: NumPy, TensorFlow, Express.js  
-- Build Tools: pip, npm, Docker  
+- **Environments:** Linux (Ubuntu 22.04+), Windows 11, macOS Ventura  
+- **Dependencies:** Python ≥ 3.9, Node.js ≥ 18, PostgreSQL ≥ 13  
+- **Optional Libraries:** NumPy ≥ 1.25, TensorFlow ≥ 2.15, Express.js ≥ 5.0  
+- **Build Tools:** pip, npm, Docker  
 
 ---
 
 ## 🌐 Deployment
-- Methods: Docker Compose, Kubernetes  
-- Clouds: AWS, Azure, GCP  
-- CI/CD: GitHub Actions, Jenkins  
+- **Methods:** Docker Compose · Kubernetes (Helm Chart)  
+- **Cloud Providers:** AWS · Azure · GCP  
+- **CI/CD Pipelines:** GitHub Actions · Jenkins  
 
 ---
 
 ## ✅ Compliance
-- SPDX License: MIT  
-- Sponsor: National Research Fund  
-- Data Policy: ./DATA_POLICY.md  
-- Accessibility: WCAG 2.1 AA  
-- Last Audit: 2025-05-12  
-- Code of Conduct: ./CODE_OF_CONDUCT.md  
+- **SPDX License:** MIT  
+- **Funding:** National Research Fund  
+- **Data Policy:** [DATA_POLICY.md](./DATA_POLICY.md)  
+- **Accessibility:** WCAG 2.1 AA  
+- **Security Audit:** 2025-05-12 (SecureCode Inc.)  
+- **Code of Conduct:** [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)  
 
 ---
 
 ## 📊 Metrics
-- Unit Test Coverage: 87%  
-- Build Status: Passing  
-- Known Issues: See label `known-issue`  
-- Roadmap: ./ROADMAP.md
+- **Unit Test Coverage:** 87%  
+- **Build Status:** ✅ Passing  
+- **Known Issues:** See label `known-issue`  
+- **Roadmap:** [ROADMAP.md](./ROADMAP.md)  
+
+---
+
+✨ **Highlights of this Design:**  
+- ✅ YAML block.  
+- ✅ Markdown.  
+- ✅ تنظيم بصري يجعل القراءة ممتعة واحترافية في GitHub.
