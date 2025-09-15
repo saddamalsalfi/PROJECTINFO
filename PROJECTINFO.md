@@ -1,4 +1,3 @@
-
 ---
 projectId: myproject-2025
 projectTitle: "My Sample Project"
