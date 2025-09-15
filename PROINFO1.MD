@@ -161,6 +161,48 @@ metrics:
 
 ---
 
+## 🧠 Visual Mindmap
+
+```mermaid
+mindmap
+  root((PROJECTINFO.md))
+    📌 Basic Metadata
+      Project Title
+      System Slug
+      Version
+      Release / Last Updated
+      Status
+      Tech Stack
+    👨‍💻 Maintainers
+      John Doe
+      Jane Smith
+    🏢 Organization
+      Owning Entity
+      Support Contact
+      Communication Channels
+    ⚙️ Runtime Requirements
+      Environments
+      Dependencies
+      Optional Libraries
+      Build Tools
+    🌐 Deployment
+      Methods
+      Cloud Providers
+      CI/CD Pipelines
+    ✅ Compliance
+      License (SPDX)
+      Data Policy
+      Accessibility
+      Security Audits
+      Code of Conduct
+    📊 Metrics
+      Test Coverage
+      Build Status
+      Known Issues
+      Roadmap
+
+
+---
 ## 📈 Visual Overview
 
 ```mermaid
