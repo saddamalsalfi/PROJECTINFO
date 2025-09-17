@@ -130,8 +130,8 @@ metrics:
 
 ## ⚙️ Runtime Requirements
 - **Environments:** Linux (Ubuntu 22.04+), Windows 11, macOS Ventura  
-- **Dependencies:** Python ≥ 3.9, Node.js ≥ 18, PostgreSQL ≥ 13  
-- **Optional Libraries:** NumPy ≥ 1.25, TensorFlow ≥ 2.15, Express.js ≥ 5.0  
+- **Dependencies:** Python, Node.js, PostgreSQL  
+- **Optional Libraries:** NumPy, TensorFlow, Express.js  
 - **Build Tools:** pip, npm, Docker  
 
 ---
@@ -161,7 +161,22 @@ metrics:
 
 ---
 
-✨ **Highlights of this Design:**  
-- ✅ YAML block.  
-- ✅ Markdown.  
-- ✅  GitHub.
+## 📈 Visual Overview
+
+```mermaid
+flowchart TD
+    A[📌 Basic Metadata] --> B[👨‍💻 Maintainers]
+    B --> C[🏢 Organization]
+    C --> D[⚙️ Runtime Requirements]
+    D --> E[🌐 Deployment]
+    E --> F[✅ Compliance]
+    F --> G[📊 Metrics]
+
+    A -->|Feeds Into| G
+    style A fill:#fdf6e3,stroke:#333,stroke-width:1px
+    style B fill:#e6f7ff,stroke:#333,stroke-width:1px
+    style C fill:#fff7e6,stroke:#333,stroke-width:1px
+    style D fill:#f0fff4,stroke:#333,stroke-width:1px
+    style E fill:#f9f0ff,stroke:#333,stroke-width:1px
+    style F fill:#fff0f0,stroke:#333,stroke-width:1px
+    style G fill:#f5f5f5,stroke:#333,stroke-width:1px
