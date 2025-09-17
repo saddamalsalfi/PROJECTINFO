@@ -164,4 +164,4 @@ metrics:
 ✨ **Highlights of this Design:**  
 - ✅ YAML block.  
 - ✅ Markdown.  
-- ✅ تنظيم بصري يجعل القراءة ممتعة واحترافية في GitHub.
+- ✅  GitHub.
