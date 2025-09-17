@@ -1,119 +1,182 @@
+---
+projectId: myproject-2025
+projectTitle: "My Sample Project"
+systemSlug: "my-sample-project"
+version: "1.2.0"
+releaseDate: "2023-09-10"
+lastUpdated: "2025-09-15"
+status: "Active"
+uiLanguages: ["en", "ar"]
+programmingLanguages: ["Python", "JavaScript"]
+database: "PostgreSQL"
+frameworks: ["Django", "React"]
+architecture: "Client-Server (REST + WebSockets)"
+license: "MIT"
+documentationUrl: "https://example.com/docs"
+homepageUrl: "https://example.com/demo"
+keywords: ["AI", "Machine Learning", "NLP"]
+
+maintainers:
+  - name: "John Doe"
+    affiliation: "Open Source Lab, XYZ University"
+    role: "Lead Developer"
+    email: "john@example.com"
+    github: "johndoe"
+    orcid: "0000-0001-2345-6789"
+    timeZone: "UTC+2"
+  - name: "Jane Smith"
+    affiliation: "TechCorp Ltd."
+    role: "Backend Engineer"
+    email: "jane@techcorp.com"
+    github: "janesmith"
+    linkedin: "https://linkedin.com/in/janesmith"
+    timeZone: "UTC+0"
+
+organization:
+  owningEntity: "Open Source Lab, XYZ University"
+  supportContact: "support@example.com"
+  issueTracker: "GitHub Issues"
+  communicationChannels:
+    discussions: "https://github.com/org/repo/discussions"
+    slack: "https://workspace.slack.com/project"
+    mailingList: "project-list@example.com"
+
+runtimeRequirements:
+  runtimeEnvironments: ["Linux (Ubuntu 22.04+)", "Windows 11", "macOS Ventura"]
+  dependencies:
+    - "Python >= 3.9"
+    - "Node.js >= 18"
+    - "PostgreSQL >= 13"
+  optionalLibraries:
+    - "NumPy >= 1.25"
+    - "TensorFlow >= 2.15"
+    - "Express.js >= 5.0"
+  buildTools: ["pip", "npm", "Docker"]
+
+deployment:
+  methods: ["Docker Compose", "Kubernetes (Helm Chart)"]
+  cloudProviders: ["AWS", "Azure", "GCP"]
+  ciCdPipelines: ["GitHub Actions", "Jenkins"]
+
+relatedFiles:
+  readme: "./README.md"
+  contributing: "./CONTRIBUTING.md"
+  codeowners: "./.github/CODEOWNERS"
+  security: "./.github/SECURITY.md"
+  citation: "./CITATION.cff"
+  changelog: "./CHANGELOG.md"
+  releases: "https://github.com/org/repo/releases"
+
+compliance:
+  spdxLicenseId: "MIT"
+  fundingSponsor: "National Research Fund"
+  dataPolicy: "./DATA_POLICY.md"
+  accessibilityCompliance: "WCAG 2.1 AA"
+  securityAudits: "2025-05-12 (SecureCode Inc.)"
+  codeOfConduct: "./CODE_OF_CONDUCT.md"
+
+metrics:
+  testCoverage: "87%"
+  buildStatus: "Passing"
+  knownIssues: "See GitHub Issues label 'known-issue'"
+  roadmapUrl: "./ROADMAP.md"
+---
+
 # 📝 Project Information (`PROJECTINFO.md`)
 
-> This file provides a **comprehensive identity card** for the project, covering metadata, maintainers, runtime requirements, and compliance information.  
-> It complements `README.md` (how-to), `CITATION.cff` (citation), and `CODEOWNERS` (review responsibilities).
+> 📖 This file acts as a **comprehensive identity card** for the project.  
+> It blends **machine-readable YAML metadata** (above) with **human-friendly documentation** (below).
 
 ---
 
 ## 📌 Basic Metadata
-- **projectTitle (Project Title):** My Sample Project  
-- **systemSlug (System Directory Name):** my-sample-project  
-- **projectId (Unique ID):** myproject-2025  
-- **version (Current Version, SemVer):** v1.2.0  
-- **releaseDate (First Release Date):** 2023-09-10  
-- **lastUpdated (Last Updated):** 2025-09-15  
-- **status (Project Status):** Active / Maintained  
-- **uiLanguages (Supported UI Languages):** en, ar  
-- **programmingLanguages (Primary Languages):** Python, JavaScript  
-- **database (Database Used, if any):** PostgreSQL  
-- **frameworks (Core Frameworks):** Django, React  
-- **architecture (System Architecture):** Client-Server (REST + WebSockets)  
-- **license (Project License):** MIT  
-- **documentationUrl (Docs Link):** https://example.com/docs  
-- **homepageUrl (Homepage/Demo):** https://example.com/demo  
-- **keywords (Tags/Topics):** AI, Machine Learning, NLP  
+| Field | Value |
+|-------|-------|
+| **Project Title** | My Sample Project |
+| **System Slug** | `my-sample-project` |
+| **Project ID** | myproject-2025 |
+| **Version** | v1.2.0 |
+| **First Release** | 2023-09-10 |
+| **Last Updated** | 2025-09-15 |
+| **Status** | 🟢 Active |
+| **Languages (UI)** | en, ar |
+| **Tech Stack** | Python · JavaScript |
+| **Database** | PostgreSQL |
+| **Frameworks** | Django · React |
+| **Architecture** | Client-Server (REST + WebSockets) |
+| **License** | MIT |
+| **Docs** | [Documentation](https://example.com/docs) |
+| **Demo** | [Homepage/Demo](https://example.com/demo) |
+| **Keywords** | AI · Machine Learning · NLP |
 
 ---
 
 ## 👨‍💻 Maintainers / Developers
-- **DEV1**
-  - **name:** John Doe  
-  - **affiliation:** Open Source Lab, XYZ University  
-  - **role:** Lead Developer  
-  - **email:** john@example.com  
-  - **github:** [@johndoe](https://github.com/johndoe)  
-  - **orcid:** 0000-0001-2345-6789  
-  - **timeZone:** UTC+2  
+- **John Doe** – Lead Developer @ Open Source Lab  
+  📧 john@example.com · [GitHub](https://github.com/johndoe) · ORCID: 0000-0001-2345-6789 · 🕒 UTC+2  
 
-- **DEV2**
-  - **name:** Jane Smith  
-  - **affiliation:** TechCorp Ltd.  
-  - **role:** Backend Engineer  
-  - **email:** jane@techcorp.com  
-  - **github:** [@janesmith](https://github.com/janesmith)  
-  - **linkedin:** https://linkedin.com/in/janesmith  
-  - **timeZone:** UTC+0  
+- **Jane Smith** – Backend Engineer @ TechCorp  
+  📧 jane@techcorp.com · [GitHub](https://github.com/janesmith) · [LinkedIn](https://linkedin.com/in/janesmith) · 🕒 UTC+0  
 
 ---
 
-## 🏢 Organization / Responsibility
-- **owningEntity (Responsible Organization):** Open Source Lab, XYZ University  
-- **supportContact (Helpdesk / Support):** support@example.com  
-- **issueTracker (Preferred Issue Tracker):** GitHub Issues  
-- **communicationChannels (Community Links):**
-  - Discussions: https://github.com/org/repo/discussions  
-  - Slack: https://workspace.slack.com/project  
-  - Mailing List: project-list@example.com  
+## 🏢 Organization
+- **Entity:** Open Source Lab, XYZ University  
+- **Support:** support@example.com  
+- **Issue Tracker:** GitHub Issues  
+- **Channels:** [Discussions](https://github.com/org/repo/discussions) · [Slack](https://workspace.slack.com/project) · Mailing List  
 
 ---
 
 ## ⚙️ Runtime Requirements
-- **runtimeEnvironments (Supported Systems/Environments):**
-  - Linux (Ubuntu 22.04+)  
-  - Windows 11  
-  - macOS Ventura  
-
-- **dependencies (Required Libraries/Frameworks):**
-  - Python ≥ 3.9  
-  - Node.js ≥ 18  
-  - PostgreSQL ≥ 13  
-
-- **optionalLibraries (Additional/Optional Packages):**
-  - NumPy ≥ 1.25  
-  - TensorFlow ≥ 2.15  
-  - Express.js ≥ 5.0  
-
-- **buildTools (Build & Package Managers):**
-  - pip  
-  - npm / yarn  
-  - Docker  
+- **Environments:** Linux (Ubuntu 22.04+), Windows 11, macOS Ventura  
+- **Dependencies:** Python, Node.js, PostgreSQL  
+- **Optional Libraries:** NumPy, TensorFlow, Express.js  
+- **Build Tools:** pip, npm, Docker  
 
 ---
 
-## 🌐 Deployment & Integration
-- **deploymentMethods (Deployment Options):**
-  - Docker Compose  
-  - Kubernetes (Helm Chart available)  
-- **cloudProviders (Supported Cloud Environments):** AWS, Azure, GCP  
-- **ciCdPipelines (CI/CD Tools):** GitHub Actions, Jenkins  
+## 🌐 Deployment
+- **Methods:** Docker Compose · Kubernetes (Helm Chart)  
+- **Cloud Providers:** AWS · Azure · GCP  
+- **CI/CD Pipelines:** GitHub Actions · Jenkins  
 
 ---
 
-## 📂 Related Files
-- **README:** ./README.md  
-- **CONTRIBUTING:** ./CONTRIBUTING.md  
-- **CODEOWNERS:** ./.github/CODEOWNERS  
-- **SECURITY:** ./.github/SECURITY.md  
-- **CITATION:** ./CITATION.cff  
-- **CHANGELOG:** ./CHANGELOG.md  
-- **Releases:** (link to releases page)  
+## ✅ Compliance
+- **SPDX License:** MIT  
+- **Funding:** National Research Fund  
+- **Data Policy:** [DATA_POLICY.md](./DATA_POLICY.md)  
+- **Accessibility:** WCAG 2.1 AA  
+- **Security Audit:** 2025-05-12 (SecureCode Inc.)  
+- **Code of Conduct:** [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)  
 
 ---
 
-## ✅ Compliance & Governance
-- **spdxLicenseId (SPDX Identifier):** MIT  
-- **fundingSponsor (Funding/Sponsorship):** National Research Fund  
-- **dataPolicy (Data/Privacy Policy):** ./DATA_POLICY.md  
-- **accessibilityCompliance (Accessibility Level):** WCAG 2.1 AA  
-- **securityAudits (Last Security Audit):** 2025-05-12 (by SecureCode Inc.)  
-- **codeOfConduct (Community Code of Conduct):** ./CODE_OF_CONDUCT.md  
+## 📊 Metrics
+- **Unit Test Coverage:** 87%  
+- **Build Status:** ✅ Passing  
+- **Known Issues:** See label `known-issue`  
+- **Roadmap:** [ROADMAP.md](./ROADMAP.md)  
 
 ---
 
-## 📊 Metrics & Quality (Optional)
-- **testCoverage (Unit Test Coverage %):** 87%  
-- **buildStatus (Current CI Status):** Passing  
-- **knownIssues (Major Issues):** See GitHub Issues label `known-issue`  
-- **roadmapUrl (Project Roadmap):** ./ROADMAP.md  
+## 📈 Visual Overview
 
----
+```mermaid
+flowchart TD
+    A[📌 Basic Metadata] --> B[👨‍💻 Maintainers]
+    B --> C[🏢 Organization]
+    C --> D[⚙️ Runtime Requirements]
+    D --> E[🌐 Deployment]
+    E --> F[✅ Compliance]
+    F --> G[📊 Metrics]
+
+    A -->|Feeds Into| G
+    style A fill:#fdf6e3,stroke:#333,stroke-width:1px
+    style B fill:#e6f7ff,stroke:#333,stroke-width:1px
+    style C fill:#fff7e6,stroke:#333,stroke-width:1px
+    style D fill:#f0fff4,stroke:#333,stroke-width:1px
+    style E fill:#f9f0ff,stroke:#333,stroke-width:1px
+    style F fill:#fff0f0,stroke:#333,stroke-width:1px
+    style G fill:#f5f5f5,stroke:#333,stroke-width:1px
